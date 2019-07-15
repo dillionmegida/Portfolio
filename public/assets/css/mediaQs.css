@@ -1,0 +1,39 @@
+@media only screen and (max-width:700px) {
+	main {
+		margin: 0;
+		width: 100%;
+	}
+	.brand h2 {
+		font-size: 16px;
+	}
+	.nav-links {
+		display: none;
+	}
+	.toggle {
+		display: block;
+	}
+	.landpage h1 {
+		font-size: 40px;
+	}
+	#portfolio-section {
+		margin-top: 20px;
+	}
+	.portfolio-nav {
+		position: initial;
+	}
+	.view-categories {
+		/* display: none; */
+		text-align: center;
+		width: 100%;
+	}
+	.view-categories button {
+		font-size: 12px;
+		width: 100px;
+	}
+}
+
+@media only screen and (max-width: 340px) {
+	main {
+		height: 90vh;
+	}
+}
