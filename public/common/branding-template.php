@@ -1,8 +1,13 @@
 <?php
 
-$title = 'DEEESIGNS STUDIOS - Graphics Design and Branding';
-$active = 'portfolio';
+$file = 'logo2.png';
+$title = 'DEEESIGNS STUDIOS | Branding - Dillion Megida';
+$active = '';
 
+//Necessary for next or previous links
+$page = 'branding';
+
+        
 require 'public/common/headTag.php';
 require 'public/common/nav.php';
 
@@ -12,17 +17,17 @@ require 'public/common/nav.php';
 
 
     <header class="breadcrumb">
-        <a href="portfolio">Portfolio</a> - Branding
+        <a href="portfolio" title="Portfolio Page">Portfolio</a> - Branding
     </header>
     <section class="display-brand">
         
 
         <section class="pictures">
             <div class="logo">
-                <img src='public/img/portfolio/<?= $logoName ?>.jpg' alt="Logo of the brand" title='Logo'>
+                <img src='public/img/portfolio/<?= $logoName ?>.jpeg' alt="Logo of the brand">
             </div>
             <div class='mockup'>
-            <img src='public/img/portfolio/<?= $mockupName ?>.jpg' alt="Mockup presentation of the logo" title='Mockup'>
+            <img src='public/img/portfolio/<?= $mockupName ?>.jpeg' alt="Mockup presentation of the logo">
             </div>
         </section>
         <section class="description">
@@ -34,32 +39,12 @@ require 'public/common/nav.php';
         </section>
     </section>
     <p>
-        <a
-        <?php
-            // To check if there is no previous page
-            if($previousPage == '') {
-        ?>
-        style='opacity: .6; cursor: pointer' title='This is the fist page'>Previous Page</a> |
-        <?php
-            } else {
-        ?>
-        href='<?= $previousPage ?>'>Previous Page</a> |
-        <?php } ?>
-        <a 
-        <?php
-            // To check if there is no next page
-            if($nextPage == '') {
-        ?>
-        style='opacity: .6; cursor: pointer' title='This is the last page'>Next Page</a>
-        <?php
-            } else { 
-        ?>
-        href='<?= $nextPage ?>'>Next Page</a>
-        <?php } ?>
-        
+        <?php require 'public/common/nextOrPrev.php' ?>       
         
         <br /><br />
-    <a href='branding'>Go Back to Branding Page</a></p>
+    <a href='branding' title="Branding Page">Go Back to Branding Page</a></p>
+
+    <?php require 'public/common/sub-footer.php' ?>
 
 
 

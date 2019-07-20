@@ -1,0 +1,288 @@
+.home {
+	display: flex;
+}
+.left {
+	display:  flex;
+	flex-direction: column;
+	width: 25%;
+	background-color: #0f0d33;
+	margin:  0;
+	height:  100vh;
+	justify-content: space-around;
+	align-items: center;
+	color:  white;
+	position: sticky;
+	top: 0;
+	bottom: 0;
+}
+.dp {	
+	border-radius: 50%;
+	max-width: 150px;
+	max-height: 150px;
+	overflow: hidden;
+	margin-top: 30px;
+}
+.dp img {
+	width: 100%;
+	object-fit: cover;
+}
+.links {
+	text-align: center;
+}
+.links ul {
+	padding:  0;
+	font-size: 17px;
+	font-weight: bold;
+}
+.links li {
+	border-left: 1px solid grey;
+	border-right: 1px solid grey;
+	padding:  5% 20px;
+}
+.links a {
+	color:  grey;
+}
+
+/* Also affects deeeesigns nav-links */
+.links li:hover, .links .active {
+	transform: scale(1.1);
+	color:  white;
+}
+.newsletter {
+	background-color: white;
+	padding: 10px;
+	border-radius: 10px;
+	box-shadow: 1px 1px 5px grey inset;
+	color:  grey;
+}
+.newsletter:hover {
+	box-shadow: 0.1px 0.1px 5px grey;
+}
+.twitter {
+	background-color: blueviolet;
+	padding:  7px;
+	margin-top: 10px;
+	color:  white;
+	border-radius: 10px;
+}
+.twitter:hover {
+	color:  blueviolet;
+	background-color:  white;
+}
+.footer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.left .footer div a {
+	color:  white;
+}
+
+
+.right {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+.right .right-social a, .home-welcome div a {
+	color: #0f0d33;
+	font-size:  20px;
+}
+.right .smallScreen {
+	display: none !important;
+	top: 0;
+	position: fixed;
+	background-color: var(--mainPurple);
+	width: 100%;
+	display: flex;
+	align-items: center; 
+}
+
+/* For the about page */
+.home-welcome {
+	width: 90%;
+	color: rgb(59, 56, 56);
+	height: 100%;
+	padding: 50px 0;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 10%;
+}
+.home-welcome h1 {
+	margin: 0;
+	font-size: 25px;	
+}
+.home-welcome .abt-me {
+	align-items: left;
+	width: 50%;
+	margin: 0 50px 0 0;
+}
+.home-welcome .abt-me p {
+	font-size: 18px;
+	text-align: justify;
+}
+.home-welcome .services {
+	display: flex;
+	flex-direction: column;
+}
+.home-welcome .services h3 {
+	margin: 10px 0 0 30px;
+}
+.home-welcome .service {
+	max-width: 200px;
+	font-size: 14px;
+	height: 150px;
+	margin: 10px 20px 0 0;
+	padding: 8px;
+	border-bottom: 1px solid var(--mainYellow);
+	border-radius: 10px;
+	background-color: #ddd;
+}
+.home-welcome .service:hover {
+	box-shadow: 1px 2px 20px rgb(0, 0, 0, .3)
+}
+.home-welcome .services h4 {
+	width: 100%;
+	margin: 0;
+}
+.timeline {
+	width: 100%;
+	text-align: justify;
+}
+.timeline .date {
+	font-weight: bold;
+}
+.connect {
+	text-align: center;
+}
+/* For the blog page */
+/* .blogs is for the main blog page, while .blog is for the singular blog pages */
+.blogs {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	width: 75%;
+	margin:  30px 0;	
+}
+.blogs .new {
+	background-color: orange;
+	position: relative;
+	width: 60px;
+	text-align: center;
+	margin: 0;
+	padding: 5px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	color: white;
+}
+/* Little navigation above each blogs, not visible by default */
+.topNav {
+	display: none;
+	position: absolute;
+	top: 40px;
+	margin-left: 20px;
+	font-size: 20px;;
+}
+.blog {
+	margin-top: 40px;
+	width:  100%;
+}
+.blog .post {
+	padding:  20px;
+	margin: 0 10%;
+	font-size: 20px;
+}
+.blog .content {
+	text-align: justify;
+}
+.blogs h1 {
+	margin: 0;
+	font-size: 25px;
+}
+.blogs .post {
+	padding: 0 20px;
+	min-width: 20%;
+	background-color: #eee;
+	cursor: pointer;
+	border-radius: 10px;
+	margin-top: 20px;
+	max-height: 400px;
+	overflow-y: hidden;
+	font-size: 19px;
+}
+.blogs .post:hover {
+	box-shadow: 1px 1px 10px rgb(0,0,0, .1);
+	transform: translateY(-5px);
+}
+.blogs .post a{
+	color: grey;
+}
+.blogs .post p{
+	margin: 0;
+}
+
+
+/* For Blogs */
+.blog {
+	display: flex;
+	align-items: center;
+}
+.blog post {
+	width: 80%;
+}
+
+
+/* For the contact page*/
+.contact {
+	width:  50%;
+}
+.form {
+	display: flex; 
+	flex-direction: column;
+	width: 100%;
+}
+.form input {
+	width: 100%;
+	margin:  0 0 20px;	
+}
+.form textarea {
+	width: 100%;
+	max-height: 300px;
+	min-height: 300px;
+	margin:  0 0 30px;
+}
+.form input, .form textarea {
+	border-radius: 20px;
+	border: 1px solid #ddd;
+	padding: 10px 20px;
+}
+.name_and_email {
+	display: flex;
+	flex-direction: column;
+}
+.form label {
+	margin-left: 20px;
+}
+
+.form input:focus, .form textarea:focus,
+.form input:hover:not([type='submit']), .form textarea:hover {
+	background-color: rgb(234, 232, 246);
+}
+.submit_btn {
+	display: block;
+	margin: auto;
+	margin-top: 30px;
+	margin-bottom: 50px;
+	background-color: var(--mainYellow);
+	color: var(--mainPurple);
+}
+.submit_btn:hover {
+	color: var(--mainYellow);
+	background-color: var(--mainPurple);
+}
+
+/* The footer only shows on smaller screens */
+.main-footer {
+	display: none;
+
+}

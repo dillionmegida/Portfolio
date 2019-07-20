@@ -7,24 +7,24 @@ let portfolioDiv = document.getElementById('portfolio-section');
 let flyers = [
     'flyer_2019',
     'flyer_val2019',
-    'flyer_watchout',
     'flyer_flyer1',
     'flyer_flyer2',
-    'flyer_flyer3'
+    'flyer_flyer3',
+    'flyer_shidah'
 ];
 
 let toons = [
     'toon_mum-and-sis',
-    'toon_toonCap',
+    'toon_lady',
     'toon_toonHead'
 ];
 
 let logos = [
-    'logo_022k',
-    'logo_els',
     'logo_matDept',
-    'branding_shidah',
-    'branding_vee-essence'
+    'logo_els',
+    'logo_heemacakes',
+    'logo_002',
+    'logo_shidah'
 ];
 
 let totalPics = [];
@@ -38,7 +38,7 @@ pushPic(flyers, toons, logos);
 let picHTML = (pic) => {
     portfolioDiv.innerHTML += `
     <div class='portfolioLg'>
-        <img onclick='modal(this)' src='public/img/portfolio/${pic}.jpg'>
+        <img onclick='modal(this)' src='public/img/portfolio/${pic}.jpeg' alt='Portfolio Images'>
     </div>
     `;
 }
@@ -49,29 +49,34 @@ let picsForDiv = (categoryName, categoryArr) => {
 
 
 
-    let previousActiveLink = document.querySelector('.active');
-    previousActiveLink.classList.remove('active');
+    let previousActiveLink = document.querySelector('.activeTag');
+    previousActiveLink.classList.remove('activeTag');
     let activeLink = document.getElementById(categoryName);
-    activeLink.classList.add('active');
-
-    setTimeout(()=> {categoryArr.forEach(pic => picHTML(pic))}, 500) // Load the pictures in one second
+    activeLink.classList.add('activeTag');
+    categoryArr.forEach(pic => picHTML(pic))
+    
+    // setTimeout(()=> {}, 500) // Load the pictures in one second
     // category.forEach(pic => picHTML(pic))
 };
 
-picsForDiv('totalPics', totalPics);
+// function to shuffle the array
+let shuffle = arr => arr.sort(() => Math.random() - 0.5);
+console.log(shuffle(totalPics));
+
+picsForDiv('totalPics', shuffle(totalPics));
 
 // To put image as background of modal div
-let modalContainer = document.getElementById('modal-container');
-let modalDiv = document.querySelector('.modal');
-document.body.onclick = () => { 
-    if(modalContainer.style.transform == 'scale(1)') {
-        modalContainer.style.transform = 'scale(0)';
-        console.log('ues');
-    }
-}
-let modal = imageId => {
-    // console.log(imageId.src);
-    // console.log(modalContainer);
-    modalDiv.style.backgroundImage = `url(${imageId.src})`;
-    modalContainer.style.transform = 'scale(1)';
-}
+// let modalContainer = document.getElementById('modal-container');
+// let modalDiv = document.querySelector('.modal');
+// document.body.onclick = () => { 
+//     if(modalContainer.style.transform == 'scale(1)') {
+//         modalContainer.style.transform = 'scale(0)';
+//         console.log('ues');
+//     }
+// }
+// let modal = imageId => {
+//     // console.log(imageId.src);
+//     // console.log(modalContainer);
+//     modalDiv.style.backgroundImage = `url(${imageId.src})`;
+//     modalContainer.style.transform = 'scale(1)';
+// }
