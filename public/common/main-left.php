@@ -17,14 +17,13 @@
 			</section>
 				
 			<section class="footer">
-
-				<!-- Newsletter not functional yet -->
-				<!-- <a href="#" title='Subscribe to Newsletter' class="newsletter" title='Subscribe to newsletter'>Subscribe to Newsletter</a> -->
-				<a href="https://twitter.com/iamdillion" title='Follow me at twitter' class="twitter" title="Follow me on twitter">
-					Dillion Megida
-				</a>
+				
 				<div style="margin-top: 20px">
-					<?php require 'public/common/social-media.php' ?>
+				<a href='https://www.facebook.com/dillion.megida' title="Facebook profile" target='_blank'><i class="fa fa-facebook-f"></i></a>&nbsp;&nbsp;
+					<a href='https://www.instagram.com/dillionmegida' title="Instagram profile" target='_blank'><i class="fa fa-instagram"></i></a>&nbsp;&nbsp;
+		            <a href='https://www.linkedin.com/in/dillionmegida/' title="Linkedin profile" target='_blank'><i class="fa fa-linkedin"></i></a>&nbsp;&nbsp;
+					<a href='https://github.com/dillionmegida' title="Github profile" target='_blank'><i class="fa fa-github"></i></a>
+					</a>
 		    	</div>
 				<p>Copyright <span class='year'>2019</span></p>
 			</section>

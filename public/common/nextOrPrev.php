@@ -7,7 +7,7 @@
         // To check if there is a preblog
         if($previousBlog == '') {
     ?>
-    style='opacity: .6; cursor: poititle='No previous article'>Previous Article</a> |
+    style='opacity: .4; cursor:pointer' title='No previous article'>Previous Article</a> |
     <?php
         } else {
     ?>
@@ -18,7 +18,7 @@ href='<?= $previousBlog ?>' title='Previous article'>Previous Article</a> |
         // To check if there is a next blog
         if($nextBlog == '') {
     ?>
-    style='opacity: .6; cursor: pointer' title='No next article'>Next Article</a>
+    style='opacity: .4; cursor:pointer' title='No next article'>Next Article</a>
     <?php
         } else { 
     ?>

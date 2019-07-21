@@ -22,6 +22,9 @@
     <main tabindex="1" id='main' class="main-section">
 
     <a href="/" class="toDillion" title='Dillion Megida'>DILLION <span style="color:#f9cb3e">M.</span></a>
+
+    <?php $deeesigns = true; ?>
+    <!-- For twitter icon to only show on deeesigns pages -->
     
     
     

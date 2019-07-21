@@ -6,7 +6,13 @@
 
     <!-- This footer displays when the side-section is no longer visible -->
     <!-- Check the media queries stylesheet to adjust it -->
-    <footer class="main-footer">Copyright <span class='year'></span> <a href="home" title="Dillion Megida">Dillion Megida</a></footer>
+        <!-- <a href="https://twitter.com/iamdillion" title="Follow Dillion Megida on twitter" style="color: white;">
+            <div style="background-color: #1b95e0; padding: 5px; margin: 0 30% 50px; text-align: center; border-radius: 10px;">
+			    <i class="fa fa-twitter"></i> Follow @iamdillion
+			</div>
+		</a> -->
+    <footer class="main-footer">
+        Copyright <span class='year'></span> <a href="home" title="Dillion Megida">Dillion Megida</a></footer>
     <script src='public/assets/js/main.js'></script>
 </body>
     

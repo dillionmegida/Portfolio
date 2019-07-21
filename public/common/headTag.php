@@ -42,7 +42,7 @@
 	<meta name="twitter:creator" content="iamdillion" />
 
 	<link rel="manifest" href="manifest.json" />
- 	<meta name="theme-color" content="#333" />
+	 <meta name="theme-color" content="#333" />
 
  	<style>
  		/* width */
