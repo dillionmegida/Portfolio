@@ -4,7 +4,7 @@ class Application {
     public function __construct() {
         $tokens = explode('/', rtrim($_SERVER['REQUEST_URI'], '/'));
         
-        $controllerName = count($tokens) == 1 ? 'deeesigns' : $tokens[1];
+        $controllerName = count($tokens) == 1 ? 'home' : $tokens[1];
         
         $filepath = 'controller/'.$controllerName.'.php';
         
