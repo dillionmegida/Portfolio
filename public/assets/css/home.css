@@ -88,6 +88,11 @@
 	color: #0f0d33;
 	font-size:  20px;
 }
+
+/*For twitter link to display when sidebar not showing*/
+.tw_follow {
+	display: none;
+}
 .right .smallScreen {
 	display: none !important;
 	top: 0;
@@ -114,7 +119,7 @@
 }
 .home-welcome .abt-me {
 	align-items: left;
-	width: 50%;
+	width: 60%;
 	margin: 0 50px 0 0;
 }
 .home-welcome .abt-me p {
@@ -129,11 +134,11 @@
 	margin: 10px 0 0 30px;
 }
 .home-welcome .service {
-	max-width: 200px;
+	max-width: 170px;
 	font-size: 14px;
 	height: 150px;
 	margin: 10px 20px 0 0;
-	padding: 8px;
+	padding: 5px;
 	border-bottom: 1px solid var(--mainYellow);
 	border-radius: 10px;
 	background-color: #ddd;
@@ -141,7 +146,7 @@
 .home-welcome .service:hover {
 	box-shadow: 1px 2px 20px rgb(0, 0, 0, .3)
 }
-.home-welcome .services h4 {
+.home-welcome .services h4, .home-welcome .services p {
 	width: 100%;
 	margin: 0;
 }
@@ -204,15 +209,15 @@
 	min-width: 20%;
 	background-color: #eee;
 	cursor: pointer;
-	border-radius: 10px;
 	margin-top: 20px;
 	max-height: 400px;
 	overflow-y: hidden;
 	font-size: 19px;
 }
 .blogs .post:hover {
-	box-shadow: 1px 1px 10px rgb(0,0,0, .1);
+	box-shadow: 10px 10px 0px rgb(0,0,0, .2);
 	transform: translateY(-5px);
+
 }
 .blogs .post a{
 	color: grey;

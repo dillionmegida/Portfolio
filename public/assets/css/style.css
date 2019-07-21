@@ -120,10 +120,9 @@ ul {
 	margin: 0 5vw 0 5vw;
 	height:80vh;
 	overflow-y: auto;
-	border-radius: 5px;
 	text-align: center;
 	color: grey;
-	box-shadow: 0px 1px 10px;
+	/* box-shadow: 0px 1px 10px; */
 }
 
 

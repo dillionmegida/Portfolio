@@ -4,15 +4,26 @@
 		height: 100%;
 	}
 }
-
+@media only screen and (max-width: 750px) {
+	.home-welcome .services > div {
+		justify-content: center;	
+	}
+	.home-welcome .services h3 {
+		margin-left: 25%;
+	}
+}
 @media only screen and (max-width: 750px) {
 	/* This portion is mainly for the home screen */
+	.home-welcome {
+		justify-content: center;
+	}
 	.home-welcome .abt-me {
 		width: 100%;
+		margin: 0;
 	}
 	.home-welcome .services > div {
 		display: flex;
-		flex-wrap: wrap;
+		flex-wrap: wrap;	
 	}
 }
 
@@ -26,6 +37,8 @@
 	}
 	.home-welcome {
 		margin-bottom: 50px;
+		margin: 0 5%;
+
 	}
 
 	/* For the blogs page */
@@ -143,5 +156,10 @@
 	.dsign-footer {
 		font-size: 1rem;
 		padding: 16px;
+	}
+	
+	/*For twitter link to display when sidebar not showing*/
+	.tw_follow {
+		display: none;
 	}
 }
