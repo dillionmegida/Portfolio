@@ -9,7 +9,7 @@ require_once 'public/common/headTag.php';
             require 'public/common/main-left.php'
         ?>
     <section class="contact">
-        <h1 style="margin-top: 30px" align='center'>Let Me Rebrand For You</h1>
+        <h1 style="margin-top: 30px" align='center'>Need a Website, Graphic Design(s) or Just to say Hi?</h1>
         <p align='center'>Kindly fill in your informations</p>
         <section class="form">
             <form action="https://formspree.io/dillionmegida@gmail.com" method="POST" >

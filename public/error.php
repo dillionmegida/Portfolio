@@ -1,21 +1,33 @@
 <?php
 
-$title = 'DEEESIGNS STUDIOS - Page Could not be found';
+$title = 'Page Could not be found';
 $active = '';
 require 'public/common/headTag.php';
-require 'public/common/nav.php';
-
+require 'public/common/main-left.php';
 ?>      
-        <div style="margin-top: 5vh;">
-                <img src="public/img/error-img.png" width='20%'/>
-                <h1>Page Not Found</h1>
-                <h1>404 Error</h1>
-                <p><a class="goto" href='home'>Go to Homepage</a></p>
-        </div>
+        <section class="errorPage">
+                <div>
+                        <img src="public/img/error-img.png" width='50%' title='Illustration for page not found'/>
+                        <h1>Page Not Found</h1>
+                        <h1>404 Error</h1>
+                        <p><a class="goto" href='home' title="Homepage">Go to Homepage</a></p>
+                </div>
+        </section>
 
-        <style>
-        .goto{
-                transition: font-weight 300ms;
+        <style> 
+        .errorPage {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                height:  85vh;
+        }
+        .errorPage h1 {
+                font-size:  30px;
+        }
+        .errorPage a {
+                font-size: 25px;
         }
         .goto:hover {
                 font-weight: bold;        
@@ -23,6 +35,4 @@ require 'public/common/nav.php';
         </style>
         
 
-<?php
-require 'public/common/footer.php';
-?>
+<?php require 'public/common/body-rem.php' ?>

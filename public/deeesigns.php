@@ -1,6 +1,6 @@
 <?php
-
-$title = 'DEEESIGNS STUDIOS - Graphics Design and Branding';
+$file = 'logo2.png';
+$title = 'DEEESIGNS STUDIOS - Web Development and Graphics Designing';
 $active = 'home';
 require_once 'public/common/headTag.php';
 require_once 'public/common/nav.php';
@@ -17,25 +17,25 @@ require_once 'public/common/nav.php';
 	<section id='welcome' class='content'>
 		<h2>WELCOME TO DEEESIGNS STUDIOS</h2>
 		<section class='services'>
-			<h3>Our Services
+			<h3>Services
 				<hr class="shortHr">
 			</h3>
 			<div class='services-list'>
 				<div class="service">
 					<div class='illustration'>
-						<img src='public/img/branding_pic.jpeg'>
+						<img src='public/img/branding_pic.jpeg' alt='Branding Illustration'>
 					</div>
 					<p>Branding Design</p>
 				</div>
 				<div class="service">
 					<div class='illustration'>
-						<img src='public/img/logo-mockup.jpeg'>
+						<img src='public/img/logo_mockup.jpeg' alt='Logo Mockup'>
 					</div>
 					<p>Logo Design</p>
 				</div>
 				<div class="service">
 					<div class='illustration'>
-						<img src='public/img/flyer-mockup.jpeg'>
+						<img src='public/img/flyer-mockup.jpeg' alt='Flyer presentation'>
 					</div>
 					<p>Flyers and Banners</p>
 					</div>
@@ -47,17 +47,17 @@ require_once 'public/common/nav.php';
 				<hr class="shortHr"/>
 			</h3>
 			<div class="portfolioLg">
-				<img src="public/img/portfolio/branding_shidah.jpg" alt="Branding Design">
+				<img src="public/img/portfolio/flyer_flyer1.jpeg" alt="Branding Design">
 			</div>
 			<div class="portfolioLg">
-				<img src="public/img/portfolio/branding_vee-essence.jpg" alt="Branding Design">
+				<img src="public/img/portfolio/logo_shidah.jpeg" alt="Branding Design">
 			</div>
 			<div class="portfolioLg">
-				<img src="public/img/portfolio/branding_shidah.jpg" alt="Branding Design">
+				<img src="public/img/portfolio/toon_lady.jpeg" alt="Branding Design">
 			</div>
 		</section>
 		<br/>
-		<a class='view-more' href='portfolio'>View More</a>
+		<a class='view-more' href='portfolio' title='View more portfolio pictures'>View More</a>
 
 		<?php require 'public/common/testimonials.php' ?>
 
