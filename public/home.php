@@ -13,7 +13,7 @@ require_once 'public/common/headTag.php';
 					<p>
 					I am a Front-End Developer and a Graphics Deeesigner. <b>CEO of Deeesigns Studios</b>, living in Kogi State, Nigeria.<br/><br/>
 					I also write articles related to Web Development. <a href="blog_1" title="Blog" style="text-decoration:underline">Read about my Dev / Designs Story here</a><br/>
-					In order to challenge myself and also add value to the community, I'd be posting articles (or tutorials) at least once on my blog every week. Stay tuned! <a href="blog" title="Blog" style="text-decoration:underline">Check out articles I've written on my blog here</a><br/><br>
+					<!-- In order to challenge myself and also add value to the community, I'd be posting articles (or tutorials) at least once on my blog every week. Stay tuned! --> <a href="blog" title="Blog" style="text-decoration:underline">Check out articles I've written on my blog here</a><br/><br>
 					I aim to be a Full Stack Web Developer and to create (or be part of) many teams who would greatly impact the world.<br/>
 					<a href='deeesigns' title='Deeesigns Page' style="text-decoration: underline;">Check out my studio</a>
 					</p>
