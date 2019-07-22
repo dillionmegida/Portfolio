@@ -19,11 +19,7 @@
 			<section class="footer">
 				
 				<div style="margin-top: 20px">
-				<a href='https://www.facebook.com/dillion.megida' title="Facebook profile" target='_blank'><i class="fa fa-facebook-f"></i></a>&nbsp;&nbsp;
-					<a href='https://www.instagram.com/dillionmegida' title="Instagram profile" target='_blank'><i class="fa fa-instagram"></i></a>&nbsp;&nbsp;
-		            <a href='https://www.linkedin.com/in/dillionmegida/' title="Linkedin profile" target='_blank'><i class="fa fa-linkedin"></i></a>&nbsp;&nbsp;
-					<a href='https://github.com/dillionmegida' title="Github profile" target='_blank'><i class="fa fa-github"></i></a>
-					</a>
+					<?php require 'public/common/social-media.php'; ?>
 		    	</div>
 				<p>Copyright <span class='year'>2019</span></p>
 			</section>
