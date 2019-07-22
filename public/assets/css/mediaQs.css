@@ -52,7 +52,7 @@
 	/* .blogs is for the main blog page, while .blog is for the singular blog pages */
 
 	.blogs {
-		width: 100%;
+		width: 90%;
 		margin:  20px 20px 50px;
 	}
 	.blogs .post {
@@ -61,7 +61,8 @@
 		overflow: hidden;
 	}
 	.blogs .post:not(:first-child) {
-		margin-top: 20px;
+		margin-top: 40px;
+		width: 95%;
 	}
 	.topNav {
 		display: block;

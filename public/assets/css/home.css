@@ -95,6 +95,7 @@
 }
 .right .smallScreen {
 	display: none !important;
+	z-index: 1;
 	top: 0;
 	position: fixed;
 	background-color: var(--mainPurple);
@@ -212,14 +213,13 @@
 	min-width: 20%;
 	background-color: #eee;
 	cursor: pointer;
-	margin-top: 20px;
+	margin-top: 40px;
 	max-height: 400px;
 	overflow-y: hidden;
 	font-size: 19px;
 }
 .blogs .post:hover {
-	box-shadow: 10px 10px 0px rgb(0,0,0, .2);
-	transform: translateY(-5px);
+	background-color: var(--mainPurple);
 
 }
 .blogs .post a{
