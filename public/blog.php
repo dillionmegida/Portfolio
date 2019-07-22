@@ -12,10 +12,34 @@ require_once 'public/common/headTag.php';
     <section class='blogs'>
         <h1>BLOG POSTS</h1>
         <div class="post">
-            <a href="blog_1" href="Blogging Post 1">
+            <a href="blog_2" href="Blogging Post 2">
                 <div class="new">
                     <p>NEW</p>
                 </div>
+                <h2>Return Statement Simplified</h2>
+                <p>22nd July, 2019</p>
+                <hr>
+                <p>
+                    I usually have issues with this statement and as I was able to have a grasp of it, I decided to write about it.
+                    <br/><br/>
+                    The return statement is a statement that evaluates a value and attaches it to a function. When such functions are called, they return the value that was evaluated.
+                    <br>
+                            Take a look at this example,
+                <pre>
+                <code class='language-javascript'>
+                let a = 5;
+                let b = 5;
+                let c = a + b;
+                console.log('a: ' + a + ', b: ' + b + ', c: ' + c);
+                //Output
+                //a: 5, b: 5; c: 10 
+                </code>
+                </pre>
+                </p>
+            </a>
+        </div>
+        <div class="post">
+            <a href="blog_1" href="Blogging Post 1">
                 <h2>Dillion Megida - First Blog</h2>
                 <p>18th July, 2019</p>
                 <hr>
