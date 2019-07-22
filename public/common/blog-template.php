@@ -22,7 +22,7 @@ $page = 'blog';
         	<section class="post">
 
                     <!-- Navs to prev and next articles -->
-                    <div align='right'>
+                    <div align='right' style="margin-top: 20px;">
                         <?php require 'public/common/nextOrPrev.php' ?>
                     </div>
 	                <h2><?= $blogTitle ?></h2>

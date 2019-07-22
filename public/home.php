@@ -51,6 +51,6 @@ require_once 'public/common/headTag.php';
 				<section class="connect">
 					<p class="right-social">Connect With Me: <?php require 'public/common/social-media.php' ?>
 					</p>
-				</section>
+				</section>						
 			</section>
 		<?php require 'public/common/body-rem.php' ?>

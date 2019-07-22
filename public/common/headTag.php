@@ -14,6 +14,9 @@
 	<!-- For fontawesome -->
 	<script src="https://use.fontawesome.com/ec33c661f9.js"></script> 
 
+	<!-- Prism js For highlighting source code -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.0/themes/prism.min.css"/>
+
 
 	<!-- SEO Meta Tags-->
     <meta name="keywords" content="branding, design, deeesigns, studios, dillion megida, dillion, megida, deeesign, web developer, web development">

@@ -14,6 +14,9 @@
     <footer class="main-footer">
         Copyright <span class='year'></span> <a href="home" title="Dillion Megida">Dillion Megida</a></footer>
     <script src='public/assets/js/main.js'></script>
+
+    <!-- Prism js For highlighting source code -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.0/prism.min.js"></script>
 </body>
     
 </html>

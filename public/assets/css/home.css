@@ -186,7 +186,7 @@
 	position: absolute;
 	top: 40px;
 	margin-left: 20px;
-	font-size: 20px;;
+	font-size: 20px;
 }
 .blog {
 	margin-top: 40px;
@@ -196,6 +196,9 @@
 	padding:  20px;
 	margin: 0 10%;
 	font-size: 20px;
+}
+.blog .post pre {
+	width:  75%;
 }
 .blog .content {
 	text-align: justify;

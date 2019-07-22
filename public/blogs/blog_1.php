@@ -36,8 +36,7 @@ $content = "
 			Stay tuned as I'll be posting helpful articles on my blog. Thank you.
 			";
 $previousBlog = '';
-$nextBlog = '';
-$new = true;
+$nextBlog = 'blog_2';
 
 require 'public/common/blog-template.php';
 
