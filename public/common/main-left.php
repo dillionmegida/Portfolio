@@ -17,11 +17,12 @@
 			</section>
 				
 			<section class="footer">
+
 				<a href="https://twitter.com/iamdillion?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="true" title='Follow @iamdillion on twitter'>Follow @iamdillion</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script><br/>
 				<div style="margin-top: 20px">
 					<?php require 'public/common/social-media.php'; ?>
 		    	</div>
-				<p>Copyright <span class='year'>2019</span></p>
+				<p>Copyright <span class='year'></span></p>
 			</section>
 		</section>
 
