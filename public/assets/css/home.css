@@ -111,7 +111,7 @@
 	height: 100%;
 	padding: 50px 0;
 	display: flex;
-	flex-wrap: wrap;
+	flex-direction: column;
 	margin: 0 10%;
 }
 .home-welcome h1 {
@@ -120,24 +120,29 @@
 }
 .home-welcome .abt-me {
 	align-items: left;
-	width: 60%;
-	margin: 0 50px 0 0;
+	width: 90%;
+	margin: 0;
 }
 .home-welcome .abt-me p {
 	font-size: 18px;
 	text-align: justify;
 }
 .home-welcome .services {
+
+	margin:  20px 0 0;
+}
+.home-welcome .services > div {
 	display: flex;
-	flex-direction: column;
+	flex-wrap:  wrap;
+	width: 100%;
 }
 .home-welcome .services h3 {
-	margin: 10px 0 0 30px;
+	margin: 0;
 }
 .home-welcome .service {
 	max-width: 170px;
 	font-size: 14px;
-	height: 150px;
+	min-height: 125px;
 	margin: 10px 20px 0 0;
 	padding: 5px;
 	border-bottom: 1px solid var(--mainYellow);
@@ -150,16 +155,10 @@
 .home-welcome .services h4, .home-welcome .services p {
 	width: 100%;
 	margin: 0;
-}
-.timeline {
-	width: 100%;
-	text-align: justify;
-}
-.timeline .date {
-	font-weight: bold;
-}
+}	
 .connect {
-	text-align: center;
+	text-align: left;
+	margin-top:  50px;
 }
 /* For the blog page */
 /* .blogs is for the main blog page, while .blog is for the singular blog pages */

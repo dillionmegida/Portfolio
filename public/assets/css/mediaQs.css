@@ -4,26 +4,17 @@
 		height: 100%;
 	}
 }
-@media only screen and (max-width: 750px) {
-	.home-welcome .services > div {
-		justify-content: center;	
-	}
-	.home-welcome .services h3 {
-		margin-left: 25%;
-	}
-}
-@media only screen and (max-width: 750px) {
-	/* This portion is mainly for the home screen */
-	.home-welcome {
+@media only screen and (max-width: 430px) {
+	/* This portion is mainly for the home screen to adjust the services */
+	.home-welcome .services  {
+		display: flex;
+		flex-wrap: wrap;
 		justify-content: center;
 	}
-	.home-welcome .abt-me {
-		width: 100%;
-		margin: 0;
-	}
 	.home-welcome .services > div {
+		width: 100%;
 		display: flex;
-		flex-wrap: wrap;	
+		justify-content: center;
 	}
 }
 
@@ -46,6 +37,10 @@
 		margin-bottom: 50px;
 		margin: 0 5%;
 
+	}
+	.connect {
+		text-align: center;
+		margin-top:  50px;
 	}
 
 	/* For the blogs page */
