@@ -42,22 +42,22 @@ require_once 'public/common/nav.php';
 			</div>
 		</section>
 
-		<section id='portfolio-section' style='margin-top:30px; !important'>
-			<h3>My Portfolio
+		<section id='gallery-section' style='margin-top:30px !important'>
+			<h3>My Gallery
 				<hr class="shortHr"/>
 			</h3>
-			<div class="portfolioLg">
-				<img src="public/img/portfolio/flyer_flyer1.jpeg" alt="Branding Design">
+			<div class="galleryLg">
+				<img src="public/img/gallery/flyer_flyer1.jpeg" alt="Branding Design">
 			</div>
-			<div class="portfolioLg">
-				<img src="public/img/portfolio/logo_shidah.jpeg" alt="Branding Design">
+			<div class="galleryLg">
+				<img src="public/img/gallery/logo_shidah.jpeg" alt="Branding Design">
 			</div>
-			<div class="portfolioLg">
-				<img src="public/img/portfolio/toon_lady.jpeg" alt="Branding Design">
+			<div class="galleryLg">
+				<img src="public/img/gallery/toon_lady.jpeg" alt="Branding Design">
 			</div>
 		</section>
 		<br/>
-		<a class='view-more' href='portfolio' title='View more portfolio pictures'>View More</a>
+		<a class='view-more' href='gallery' title='View more Gallery pictures'>View More</a>
 
 		<?php require 'public/common/testimonials.php' ?>
 

@@ -206,7 +206,7 @@ ul {
 
 
 
-.portfolio-nav {
+.gallery-nav {
 	display: flex;
 	justify-content: space-around;
 	flex-wrap: wrap;
@@ -216,7 +216,7 @@ ul {
 	width: inherit;
 	z-index: 1;
 }
-.portfolio-nav button {
+.gallery-nav button {
 	border-radius: 20px;
 	border: 0;
 	background-color:transparent;
@@ -226,17 +226,17 @@ ul {
 	width:100px;
 	height: 35px;
 }
-.portfolio-nav button:hover, .portfolio-nav .activeTag {
+.gallery-nav button:hover, .gallery-nav .activeTag {
 	color: #055185;
 	background-color: white;
 }
-.portfolio-nav a button {
+.gallery-nav a button {
 	background-color: #055185;
 	color: white;
 }
 
-/* This div is for home and portfolio page */
-#portfolio-section {
+/* This div is for home and gallery page */
+#gallery-section {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
@@ -244,7 +244,7 @@ ul {
 }
 
 /* For the home alone */
-#portfolio-section h3 {
+#gallery-section h3 {
 	width: 100%;
 	margin: 0;
 }
@@ -265,18 +265,18 @@ ul {
 }
 
 /* Also appplies to home page */
-.portfolioLg {
+.galleryLg {
 	width: 300px;
 	height: 300px;
 	padding: 20px;
 }
-.portfolioLg img {
+.galleryLg img {
 	width: 100%;
 	height:100%;
 	object-fit: cover;
 	box-shadow: 1px 1px 1px rgb(0,0,0, .1)
 }
-.portfolio img:hover, .portfolioLg img:hover {
+.gallery img:hover, .galleryLg img:hover {
 	transform: translateY(-10px);
 	box-shadow: 10px 10px 5px rgb(0,0,0, .1);
 	transform: scale(1.2);	

@@ -17,17 +17,17 @@ require 'public/common/nav.php';
 
 
     <header class="breadcrumb">
-        <a href="portfolio" title="Portfolio Page">Portfolio</a> - Branding
+        <a href="gallery" title="Gallery Page">Gallery</a> - Branding
     </header>
     <section class="display-brand">
         
 
         <section class="pictures">
             <div class="logo">
-                <img src='public/img/portfolio/<?= $logoName ?>.jpeg' alt="Logo of the brand">
+                <img src='public/img/gallery/<?= $logoName ?>.jpeg' alt="Logo of the brand">
             </div>
             <div class='mockup'>
-            <img src='public/img/portfolio/<?= $mockupName ?>.jpeg' alt="Mockup presentation of the logo">
+            <img src='public/img/gallery/<?= $mockupName ?>.jpeg' alt="Mockup presentation of the logo">
             </div>
         </section>
         <section class="description">

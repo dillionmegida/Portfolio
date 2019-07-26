@@ -4,19 +4,6 @@
 		height: 100%;
 	}
 }
-@media only screen and (max-width: 430px) {
-	/* This portion is mainly for the home screen to adjust the services */
-	.home-welcome .services  {
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: center;
-	}
-	.home-welcome .services > div {
-		width: 100%;
-		display: flex;
-		justify-content: center;
-	}
-}
 
 @media only screen and (max-width: 650px) {
 	/* The source codes to adjust on smaller screens */
@@ -33,22 +20,12 @@
 	.left {
 		display: none;
 	}
-	.home-welcome {
-		margin-bottom: 50px;
-		margin: 0 5%;
-
-	}
-	.connect {
-		text-align: center;
-		margin-top:  50px;
-	}
-
 	/* For the blogs page */
 	/* .blogs is for the main blog page, while .blog is for the singular blog pages */
 
 	.blogs {
 		width: 90%;
-		margin:  20px 20px 50px;
+		margin:  80px 20px 50px;
 	}
 	.blogs .post {
 		max-height: 300px;
@@ -66,14 +43,16 @@
 		margin-bottom: 50px;
 	}
 	.blog .post {
-		margin: 0;
+		margin: 80px 0 0;
 		font-size: 18px;
+		width: 100%;
 	}
 
 
 	/*For contact page */
 	.contact {
 		width: 80%;
+		margin: 80px 0 0;
 	}
 
 
@@ -113,7 +92,7 @@
 	}
 	.right .smallScreen {
 		display: flex !important;
-		justify-content: space-around;
+		flex-direction: column;
 		padding: 10px;
 	}
 	.smallScreen a {
@@ -136,10 +115,10 @@
 	.landpage h1 {
 		font-size: 40px;
 	}
-	#portfolio-section {
+	#gallery-section {
 		margin-top: 20px;
 	}
-	.portfolio-nav {
+	.gallery-nav {
 		position: initial;
 		padding-top: 30px;
 	}

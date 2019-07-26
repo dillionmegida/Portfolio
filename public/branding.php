@@ -8,7 +8,7 @@ require 'public/common/nav.php';
 ?>
 
     <header class="breadcrumb">
-        <a href="portfolio" title="Portfolio page">Portfolio</a> - Branding
+        <a href="gallery" title="Gallery page">Gallery</a> - Branding
     </header>
     <p>Click for more details</p>
     <section id='branding' style="display: flex; flex-wrap: wrap; justify-content: center; margin-top: 30px;">
@@ -22,9 +22,9 @@ require 'public/common/nav.php';
         ];
         brands.forEach(brand => {
             brandingDiv.innerHTML += `
-            <div class='portfolioLg'>
+            <div class='galleryLg'>
                 <a href='branding_${brands.indexOf(brand) + 1 }' title='Branding Image'>
-                <img src='public/img/portfolio/${brand}.jpeg' alt='Branding Picture'></a>
+                <img src='public/img/gallery/${brand}.jpeg' alt='Branding Picture'></a>
             </div>
             `;
         })

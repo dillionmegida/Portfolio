@@ -10,7 +10,7 @@
 	<link rel="stylesheet" type="text/css" href="public/assets/css/style.css">
 	<link rel="stylesheet" type="text/css" href="public/assets/css/home.css">
 	<link rel="stylesheet" type="text/css" href="public/assets/css/mediaQs.css">
-	<link rel="icon" href="public/img/<?= isset($file) ? $file : 'deee.png'; ?>" type="image/png" sizes="16x16">
+	<link rel="icon" href="public/img/<?= isset($file) ? $file : 'icon.png'; ?>" type="image/png" sizes="16x16">
 	<!-- For fontawesome -->
 	<script src="https://use.fontawesome.com/ec33c661f9.js"></script> 
 

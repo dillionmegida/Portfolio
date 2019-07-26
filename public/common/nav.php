@@ -7,7 +7,7 @@
 		</header>
 		<ul class='nav-links' id='nav-links'>
             <li class="links"><a href="deeesigns" <?php if($active == 'home') echo 'class="active"'; else echo '' ?> title="Homepage">HOME</a></li>
-            <li class="links"><a href="portfolio" <?php if($active == 'portfolio') echo 'class="active"'; else echo '' ?> title="Portfolio">PORTFOLIO</a></li>
+            <li class="links"><a href="gallery" <?php if($active == 'gallery') echo 'class="active"'; else echo '' ?> title="Gallery">GALLERY</a></li>
             <li class="links"><a href="about" <?php if($active == 'about') echo 'class="active"'; else echo '' ?> title="About">ABOUT</a></li>
         </ul>
 

@@ -10,7 +10,7 @@ require 'public/common/main-left.php';
                         <img src="public/img/error-img.png" width='50%' title='Illustration for page not found'/>
                         <h1>Page Not Found</h1>
                         <h1>404 Error</h1>
-                        <p><a class="goto" href='home' title="Homepage">Go to Homepage</a></p>
+                        <p><a class="goto" href='/' title="Homepage">Go to Homepage</a></p>
                 </div>
         </section>
 

@@ -20,7 +20,7 @@
 	max-width: 150px;
 	max-height: 150px;
 	overflow: hidden;
-	margin-top: 30px;
+	margin: 30px auto 0;
 }
 .dp img {
 	width: 100%;
@@ -97,69 +97,14 @@
 	display: none !important;
 	z-index: 1;
 	top: 0;
-	position: fixed;
+	position: absolute;
 	background-color: var(--mainPurple);
 	width: 100%;
 	display: flex;
 	align-items: center; 
 }
 
-/* For the about page */
-.home-welcome {
-	width: 90%;
-	color: rgb(59, 56, 56);
-	height: 100%;
-	padding: 50px 0;
-	display: flex;
-	flex-direction: column;
-	margin: 0 10%;
-}
-.home-welcome h1 {
-	margin: 0;
-	font-size: 25px;	
-}
-.home-welcome .abt-me {
-	align-items: left;
-	width: 90%;
-	margin: 0;
-}
-.home-welcome .abt-me p {
-	font-size: 18px;
-	text-align: justify;
-}
-.home-welcome .services {
 
-	margin:  20px 0 0;
-}
-.home-welcome .services > div {
-	display: flex;
-	flex-wrap:  wrap;
-	width: 100%;
-}
-.home-welcome .services h3 {
-	margin: 0;
-}
-.home-welcome .service {
-	max-width: 170px;
-	font-size: 14px;
-	min-height: 125px;
-	margin: 10px 20px 0 0;
-	padding: 5px;
-	border-bottom: 1px solid var(--mainYellow);
-	border-radius: 10px;
-	background-color: #ddd;
-}
-.home-welcome .service:hover {
-	box-shadow: 1px 2px 20px rgb(0, 0, 0, .3)
-}
-.home-welcome .services h4, .home-welcome .services p {
-	width: 100%;
-	margin: 0;
-}	
-.connect {
-	text-align: left;
-	margin-top:  50px;
-}
 /* For the blog page */
 /* .blogs is for the main blog page, while .blog is for the singular blog pages */
 .blogs {
@@ -167,7 +112,7 @@
 	flex-direction: column;
 	align-items: flex-start;
 	width: 75%;
-	margin:  30px 0;	
+	margin:  10px 0;	
 }
 .blogs .new {
 	background-color: orange;
@@ -198,7 +143,7 @@
 	font-size: 20px;
 }
 .blog .post pre {
-	width:  75%;
+	width: 80%;
 }
 .blog .content {
 	text-align: justify;
@@ -209,13 +154,14 @@
 }
 .blogs .post {
 	padding: 0 20px;
-	min-width: 20%;
+	/* min-width: 20%; */
 	background-color: #eee;
 	cursor: pointer;
 	margin-top: 40px;
 	max-height: 400px;
 	overflow-y: hidden;
 	font-size: 19px;
+	width: 100%;
 }
 .blogs .post:hover {
 	background-color: var(--mainPurple);
