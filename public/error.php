@@ -16,12 +16,12 @@ require 'public/common/main-left.php';
 
         <style> 
         .errorPage {
+                margin-top: 80px;
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
                 text-align: center;
-                height:  85vh;
         }
         .errorPage h1 {
                 font-size:  30px;
