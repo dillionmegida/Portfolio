@@ -6,7 +6,7 @@
     
     <div id='nav-links-toggle'>
         <a href='deeesigns' title="Deeesigns - Home">HOME</a>
-        <a href='portfolio' title="Portfolio Page">PORTFOLIO</a>
+        <a href='gallery' title="Gallery Page">GALLERY</a>
         <a href='about' title="About Deeesigns">ABOUT</a>
     </div>
 
