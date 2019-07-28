@@ -19,7 +19,7 @@
 
 
 	<!-- SEO Meta Tags-->
-    <meta name="keywords" content="branding, design, deeesigns, studios, dillion megida, dillion, megida, deeesign, web developer, web development">
+    <meta name="keywords" content="<?= isset($keywords) ? $keywords.', ' : ''; ?>branding, design, deeesigns, studios, dillion megida, dillion, megida, deeesign, web developer, web development">
     <meta name="author" content="Dillion Megida">
 
     <meta name="description" content="Dillion is a front end developer and a graphics designer. He founded Deeesigns Studios which deals in Web Development, Graphics Designs such as Branding Identity with Logo Design and advertisements with flyers and posters"/>
@@ -50,13 +50,12 @@
  	<style>
  		/* width */
 		::-webkit-scrollbar {
-		  width: 10px;
+		  width: 7px;
 		}
 
 		/* Track */
 		::-webkit-scrollbar-track {
 		  background: #0f0d33;
-		  border-radius: 10px;
 		  border-radius: 0;
 		}
 		 

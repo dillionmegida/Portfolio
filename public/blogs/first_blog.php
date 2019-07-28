@@ -38,6 +38,7 @@ $content = "
 $previousBlog = '';
 $nextBlog = 'return_statement_simplified';
 
+$keywords = 'first blog, dillion first blog';
 require 'public/common/blog-template.php';
 
 ?>

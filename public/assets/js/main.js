@@ -7,7 +7,7 @@ var navToggle = document.getElementById('nav-links-toggle');
 navToggle.style.display = 'none';
 
 let date = new Date();
-document.querySelectorAll('.year').forEach(footer => footer.innerHTML = date.getFullYear());;
+document.querySelectorAll('.year').forEach(footer => footer.innerHTML = date.getFullYear());
 
 
 if ('serviceWorker' in navigator) {

@@ -106,6 +106,7 @@ if(typeOf getAgeFor(myYearOfBirth) === 'number') {
 $previousBlog = 'first_blog';
 $nextBlog = '';
 
+$keywords = 'return statement, return statement simplified, javascript return statememt';
 require 'public/common/blog-template.php';
 
 ?>

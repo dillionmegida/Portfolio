@@ -48,6 +48,14 @@
 		width: 100%;
 	}
 
+	/* For portfolio page */
+	.portfolio-section {
+		margin-top: 100px;
+	}
+	.portfolio-section .services {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
 
 	/*For contact page */
 	.contact {

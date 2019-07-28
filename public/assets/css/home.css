@@ -58,17 +58,6 @@
 .newsletter:hover {
 	box-shadow: 0.1px 0.1px 5px grey;
 }
-.twitter {
-	background-color: blueviolet;
-	padding:  7px;
-	margin-top: 10px;
-	color:  white;
-	border-radius: 10px;
-}
-.twitter:hover {
-	color:  blueviolet;
-	background-color:  white;
-}
 .footer {
 	display: flex;
 	flex-direction: column;
@@ -89,10 +78,6 @@
 	font-size:  20px;
 }
 
-/*For twitter link to display when sidebar not showing*/
-.tw_follow {
-	display: none;
-}
 .right .smallScreen {
 	display: none !important;
 	z-index: 1;
@@ -180,8 +165,44 @@
 	display: flex;
 	align-items: center;
 }
-.blog post {
+.blog .post {
 	width: 80%;
+}
+
+/* For portfolio section */
+.portfolio-section {
+	text-align: center;
+	width: 100%;
+}
+.portfolio-contents {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin-top: 20px;
+}
+.portfolio-contents .p_pic {
+	max-width: 300px;
+	max-height: 300px;
+	border-radius: 20px;
+	border: 1px solid red;
+	overflow: hidden;
+	margin: 0;
+}
+.portfolio-contents .p_pic img {
+	object-fit: cover;
+	width: 100%;
+}
+.portfolio-contents .bio {
+	max-width: 500px;
+	padding: 20px;
+}
+.portfolio-contents .bio h3 {
+	margin: 0;
+}
+
+.portfolio-section .services {
+	display: flex;
+	/* flex-wrap: wrap; */
 }
 
 

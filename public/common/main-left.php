@@ -5,13 +5,14 @@
 				<div class="dp">
 					<img src="public/img/deee.jpeg" alt='Profile Picture'/>
 				</div>
-				<h4 style='margin:10px 0 0;' align="center">Dillion Megida</h4>
+				<h4 style='margin:10px 0 0;' align="center">Dillion Megida &#128640;</h4>
 				<p style='padding: 10px; margin: 0;' align='center'>Front End Developer and Technical Writer.</p>
 			</header>
 			<section class="links">
 				<ul>
-					<a href='/'><li class="<?= $active == 'home' ? 'active' : '' ?>" title="Dillion Megida's Blog">BLOG</li></a>
-					<a href='contact'><li class="<?= $active == 'contact' ? 'active' : '' ?>" title='Contact Dillion'>CONTACT</li></a>
+					<a href='/' title="Dillion Megida's Blog"><li class="<?= $active == 'home' ? 'active' : '' ?>">BLOG</li></a>
+					<a href='portfolio' title="Dillion's portfolio"><li class="<?= $active == 'portfolio' ? 'active' : '' ?>">PORTFOLIO</li></a>
+					<a href='contact' title='Contact Dillion'><li class="<?= $active == 'contact' ? 'active' : '' ?>">CONTACT</li></a>
 					<a href='deeesigns' title="Deeesigns Studios"><li>DEEESIGNS</li></a>
 				</ul>
 			</section>
@@ -42,7 +43,8 @@
 			</div>
 			
 			<div id='nav-links-toggle'>
-				<a href='/' title="Dillion Megida's Blog">BLOG</a>			
+				<a href='/' title="Dillion Megida's Blog">BLOG</a>
+				<a href='portfolio' title="Dillion's portfolio">PORTFOLIO</a>			
 				<a href='contact' title="Contact Dillion">CONTACT</a>
 				<a href='deeesigns' title="Deeesigns Studios">DEEESIGNS</a>
 			</div>
