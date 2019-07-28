@@ -1,6 +1,6 @@
 <?php
 
-$title = 'Dillion Megida - Blog';
+$title = 'Dillion Megida &#128640; - Technical Writer and Front End Developer';
 require_once 'public/common/headTag.php';
 
 ?>
