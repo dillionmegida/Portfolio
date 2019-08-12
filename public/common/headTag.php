@@ -10,7 +10,7 @@
 	<link rel="stylesheet" type="text/css" href="public/assets/css/style.css">
 	<link rel="stylesheet" type="text/css" href="public/assets/css/home.css">
 	<link rel="stylesheet" type="text/css" href="public/assets/css/mediaQs.css">
-	<link rel="icon" href="public/img/<?= isset($file) ? $file : 'icon.png'; ?>" type="image/png" sizes="16x16">
+	<link rel="icon" href="icon.png" type="image/png" sizes="16x16">
 	<!-- For fontawesome -->
 	<script src="https://use.fontawesome.com/ec33c661f9.js"></script> 
 
@@ -19,10 +19,10 @@
 
 
 	<!-- SEO Meta Tags-->
-    <meta name="keywords" content="<?= isset($keywords) ? $keywords.', ' : ''; ?>branding, design, deeesigns, studios, dillion megida, dillion, megida, deeesign, web developer, web development">
-    <meta name="author" content="Dillion Megida">
+    <meta name="keywords" content="<?= isset($keywords) ? $keywords.', ' : ''; ?>branding, design, dillion megida, dillion, megida, web developer, web development">
+    <meta name="author" content="Dillion Megida">	
 
-    <meta name="description" content="Dillion is a front end developer and a graphics designer. He founded Deeesigns Studios which deals in Web Development, Graphics Designs such as Branding Identity with Logo Design and advertisements with flyers and posters"/>
+    <meta name="description" content="Dillion is a front end developer, a technical writer and a graphics designer."/>
 	<link rel="canonical" href="http://dillionmegida.com/" />
 
 	<!-- Open Graph -->

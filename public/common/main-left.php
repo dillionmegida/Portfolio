@@ -11,9 +11,8 @@
 			<section class="links">
 				<ul>
 					<a href='/' title="Dillion Megida's Blog"><li class="<?= $active == 'home' ? 'active' : '' ?>">BLOG</li></a>
-					<a href='portfolio' title="Dillion's portfolio"><li class="<?= $active == 'portfolio' ? 'active' : '' ?>">PORTFOLIO</li></a>
+					<a href='about' title="About Dillion"><li class="<?= $active == 'about' ? 'active' : '' ?>">ABOUT</li></a>
 					<a href='contact' title='Contact Dillion'><li class="<?= $active == 'contact' ? 'active' : '' ?>">CONTACT</li></a>
-					<a href='deeesigns' title="Deeesigns Studios"><li>DEEESIGNS</li></a>
 				</ul>
 			</section>
 				
@@ -29,22 +28,35 @@
 
         <section class="right">
 			<div class="smallScreen">
-				<div style='display: flex; justify-content: space-around; width: 100%'>
+				<div class='smallScreenNav'>
 					<a href='home' title="Dillion Megida"><b>Dillion Megida</b></a>
 					<p class='toggle' onclick="
 						navToggle.style.display === 'none' ? navToggle.style.display = 'block' : navToggle.style.display = 'none'; 
 						// if(navToggle.style.display == 'none') navToggle.style.display = 'block';
 					"><i class="fa fa-bars"></i></p>
 				</div><br/>
-				<a href="https://twitter.com/iamdillion?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="true" title='Follow @iamdillion on twitter'>Follow @iamdillion</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script><br/>
-				<div style="margin-top: 5px">
+				
+				<div style="margin: 60px 0 10px">
 					<?php require 'public/common/social-media.php'; ?>
-		    	</div>
+				</div>
+				<a href="https://twitter.com/iamdillion?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="true" title='Follow @iamdillion on twitter'>
+				Follow @iamdillion
+				</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script><br/>
 			</div>
 			
 			<div id='nav-links-toggle'>
-				<a href='/' title="Dillion Megida's Blog">BLOG</a>
-				<a href='portfolio' title="Dillion's portfolio">PORTFOLIO</a>			
-				<a href='contact' title="Contact Dillion">CONTACT</a>
-				<a href='deeesigns' title="Deeesigns Studios">DEEESIGNS</a>
+
 			</div>
+			<script>
+
+				// To select the links to be displayed in smaller screens
+				var NavLinks = document.getElementById('nav-links-toggle');
+				NavLinks.innerHTML = '';
+				document.querySelectorAll('.links').forEach(link => 
+					{
+						NavLinks.innerHTML += `
+							${link.innerHTML}
+						`;
+					}
+				);
+			</script>

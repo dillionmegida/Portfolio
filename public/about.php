@@ -1,62 +1,61 @@
 <?php
 
-$file = 'logo2.png';
-$title = 'DEEESIGNS STUDIOS | About - Dillion Megida';
-$active = 'about';
+$title = 'About Me - Dillion Megida';
 require_once 'public/common/headTag.php';
-require_once 'public/common/nav.php';
-
-?>  
-
-
-    <?php
-		$title = "ABOUT DEEESIGNS";
-        $desc = "";
-        $size = "landpageSmall";
-		require 'public/common/bg.php';
-    ?>
-    
-    <section class="abt_dsigns">
-        <div>
-            <h2>About Deeesigns Studios</h2>
-            <p>Deeesigns Studios started in January 2018, offering services such as Graphics and Advertisement Design to help brand or rebrand your idea in good visual and attractive presentation. Added to this is also Web Development.
-            <br/><br/>
-            Services comprises of Logo Designs for giving your brand a unique identity and also Flyers, Banners or Poster Designs to help advertise your brand to the public.
-            <br/><br/>
-        It would be my pleasure to help you out today. Let me rebrand your idea. Click <u><a href="contact" title="Contact me">here</a></u> let us talk about your business</p>
-        </div>
-
-        <div>
-            <h2>Skills</h2>
-            <p>Adobe Photoshop<br/>
-            Adobe Illustrator<br/>
-            HTML5 & CSS3<br/>
-            Javascript<br/>
-            Node.js & React.js<br/>
-            PHP</p>
-        </div>    
-        
-        <div>
-            <h2>Reports</h2>
-            <p><b>500</b> Projects Delivered</p>
-            <p><b>402</b> Satisfied Clients</p>
-                
-        </div>
-
-        
-    </section>
-
-    <br/>
- 
-
-    <?php require 'public/common/testimonials.php' ?>
-
-    <?php require 'public/common/sub-footer.php' ?>
-    
-
-
-<?php
-
-require 'public/common/footer.php';
 
 ?>
+
+        <?php
+            $active = 'about';
+            require 'public/common/main-left.php'
+        ?>
+
+        <section class="portfolio-section">
+            <h2>ABOUT ME</h2>
+            <section class="portfolio-contents">
+                <div class="bio">
+                    <h3 align='right'>Front End Developer + Graphics Deeesigner</h2>
+                    <p align='justify'>Efficient with HTML5 & CSS3, JS and it's frameworks such as ReactJs and jQuery.<br/>
+                    I'm a technical writer writing mostly about web development on my blog here and other blog media.<br/>
+                    I also ensure Web Responsibility making ease for all screen sizes.<br/><br/>
+                    Efficient use of Adobe Photoshop and Adobe Illustrator for graphics designing. These includes photo editing, logo designing and advertisement cards. <br/><br/>
+                    Average use of Adobe After Effects and Adobe Premiere Pro for video editing and motion graphics.<br/><br/>
+                    Founder, <b>Deeesigns Studios</b>, which deals in Web Development and Graphics Designing. You can check Deeesigns page <a href='http://deeesignsstudios.com' title='Deeesigns Studios'><u>here</u></a>
+                    </p>
+                </div>
+                <div>
+                    <div class="p_pic">
+                        <img src='public/img/deee.jpeg' />
+                    </div>
+                    <h1>DILLION MEGIDA &#128640;</h1>
+                    <p><i class="fa fa-envelope"></i> dillionmegida@gmail.com<br/>
+                        <i class="fa fa-phone"></i> +234 905 896 1095<br/><br/>
+                        You can connect with me on my<br/>social media handles &#128512;<br/>
+                        <a href='contact' title='Contact Me'><u>Contact Me</u></a>
+                    </p>
+                </div>
+            </section>
+            <section>
+                <h2>What I do</h2>
+                    <section class="services">
+                        <div>
+                            <img src='public/img/web.png' width='10%'/>
+                            <h3>Web Development</h3>
+                        </div>
+                        <div>
+                            <img src='public/img/brand.png' width="10%" />
+                            <h3>Branding Identity</h3>
+                        </div>
+                        <div>
+                            <img src='public/img/motion.png' width="10%" />
+                            <h3>Motion Graphics</h3>
+                        </div>
+                        <div>
+                            <img src='public/img/flyer.png' width="10%" />
+                            <h3>Flyers / Banners</h3>
+                        </div>
+                    </section>
+            </section style='margin-bottom: 100px;'>
+        </section>
+
+    <?php require 'public/common/body-rem.php' ?>

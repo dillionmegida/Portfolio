@@ -66,17 +66,16 @@
 
 	/* This footer displays when the side section is no longer visible */
 	.main-footer {
-		position: fixed;
 		width:  100%;
 		display: block;
 		text-align: center;
 		padding: 10px;
 		color:  white;
-		background-color: #0f0d33;
+		background-color: var(--mainColor1);
 		bottom:  0;
 	}
 	.main-footer a {
-		color: #f9cb3e;
+		color: var(--mainColor2);
 	}
 
 
@@ -101,20 +100,26 @@
 	.right .smallScreen {
 		display: flex !important;
 		flex-direction: column;
-		padding: 10px;
+		background-color: var(--mainColor1);
+		min-height: 120px;
+	}
+	.right .smallScreen .smallScreenNav {
+		display: flex;
+		justify-content: space-around;
+		width: 100%;
+		position: fixed;
+		min-height: 40px;
+		background-color: var(--mainColor1);
+		top: 0;
+		left: 0;
+		padding: 20px 0;
+	}
+	#nav-links-toggle a {
+		display: block;
 	}
 	.smallScreen a {
 		color: white;
 	}
-	.right #nav-links-toggle {
-		position: fixed;
-		top: 43px;
-	}
-	.right #nav-links-toggle a {
-		color: white;
-		background-color: #0f0d33;
-	}
-
 	.main-section {
 		height: 80vh;
 		width: 100%;
